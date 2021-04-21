@@ -1,0 +1,3 @@
+text.txt
+tekst.txt
+write.txt
