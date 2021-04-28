@@ -1,0 +1,16 @@
+import numpy as np
+b = np.arange(12)
+print(b)
+c = b.reshape((3,4))
+print(c)
+d = c.reshape((4,3))
+print(d)
+e = d.reshape((2,6))
+print(e)
+e = d.ravel()
+d = c.ravel()
+c = b.ravel()
+print(e)
+print(d)
+print(c)
+#sa identyczne
